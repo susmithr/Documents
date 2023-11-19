@@ -4,7 +4,7 @@ zookeeper-server-start.bat C:\kafka_2.13-3.6.0\config\zookeeper.properties
 
 Start Kafka Server / Broker
 
-sh bin/kafka-server-start.sh config/server.properties
+kafka-server-start.sh C:\kafka_2.13-3.6.0\config\server.properties
 
 Create topic
 
