@@ -1,6 +1,6 @@
 Start Zookeeper Server
 
-sh bin/zookeeper-server-start.sh config/zookeeper.properties
+zookeeper-server-start.bat C:\kafka_2.13-3.6.0\config\zookeeper.properties
 
 Start Kafka Server / Broker
 
