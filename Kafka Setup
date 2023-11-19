@@ -8,7 +8,7 @@ sh bin/kafka-server-start.sh config/server.properties
 
 Create topic
 
-sh bin/kafka-topics.sh --bootstrap-server localhost:9092 --create --topic NewTopic --partitions 3 --replication-factor 1
+kafka-topics.bat --bootstrap-server localhost:9092 --create --topic PAYMENT-TOPIC --partitions 3 --replication-factor 1
 
 list out all topic names
 
